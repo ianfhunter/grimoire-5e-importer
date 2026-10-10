@@ -1,0 +1,529 @@
+{
+  "$schema": "grimoire://character/v1",
+  "name": "Creethe Quorath",
+  "status": "active",
+  "schema_id": "dnd-5e-2024",
+  "data": {
+    "hero_name": "Creethe Quorath",
+    "level": 6,
+    "subclass": "Oath of the Crown",
+    "strength": 8,
+    "dexterity": 8,
+    "constitution": 18,
+    "intelligence": 11,
+    "wisdom": 15,
+    "charisma": 18,
+    "hp_max": 76,
+    "hp_current": 76,
+    "hp_temp": 0,
+    "hit_dice": "6d10",
+    "speed": 30,
+    "size": "Medium",
+    "skill_profs": [
+      "Insight",
+      "Religion",
+      "Medicine",
+      "Investigation",
+      "Persuasion"
+    ],
+    "shield": true,
+    "armor_light": true,
+    "armor_medium": true,
+    "armor_heavy": true,
+    "armor_shields": true,
+    "weapon_training": "Simple & Martial",
+    "tool_training": "Thieves' Tools",
+    "languages": "Common, Elvish, Sylvan",
+    "appearance": "Creethe is a pallid elf with a lean build. Her skin is a light grey pale, like they were permeantly ill. Their body is littered with scars and lacks much embellishment aside from two small circular tattoos in the center of her palms - A sign of her religion. Her eyes are a steely blue.\n\nShe wears simple robed clothing without buttons, tassles or other decoration. Even the colour is faded and drab. The loose clothing helps to conceal light weapons beneath and on her hip, her main weapon - a cruel whip with small shards of glass embedded into its leather. A holy amulet hangs low on her neck, a simple black sphere.\n\nHer expression is invariably a scowl, for generally her circumstances are not to her liking. \n\nIf one somehow got the chance to glimpse beneath the robes, her back is riddled with long scars of old painful whipping welts. And indeed, the more you look, the more you might see in other places, her fair complexion hiding many of the whitened scars that run all over her body.\n\nPallet: Pale, Faded Darks",
+    "backstory": "Gender: Female\n\n**Shelter of The Faithful**\nAs an acolyte, you command the respect of those who share your faith, and you can perform the religious ceremonies of your deity. You and your adventuring companions can expect to receive free healing and care at a temple, shrine, or other established presence of your faith, though you must provide any material components needed for spells. Those who share your religion will support you (but only you) at a modest lifestyle.\n\nYou might also have ties to a specific temple dedicated to your chosen deity or pantheon, and you have a residence there. This could be the temple where you used to serve, if you remain on good terms with it, or a temple where you have found a new home. While near your temple, you can call upon the priests for assistance, provided the assistance you ask for is not hazardous and you remain in good standing with your temple.\n\nPersonality:\nI see omens in every event and action. The gods try to speak to us, we just need to listen.\n\nI am intolerant of other faiths and condemn the worship of other gods.\n\nIdeals:\nTradition. The ancient traditions of worship and sacrifice must be preserved and upheld. (Lawful)\n\nPower. I hope to one day rise to the top of my faith's religious hierarchy. (Lawful)\n\nFaith. I trust that my deity will guide my actions. I have faith that if I work hard, things will go well. (Lawful)\n\nAspiration. I seek to prove myself worthy of my god's favor by matching my actions against their teachings. (Any)\n\nBonds:\nI will do anything to protect the temple where I served.\n\nI seek to preserve a sacred text that my enemies consider heretical and seek to destroy.\n\nFlaws:\nI judge others harshly, and myself even more severely\n\nI put too much trust in those who wield power within my temple's hierarchy.\n\nMy piety sometimes leads me to blindly trust those that profess faith in my god.\n\nI am inflexible in my thinking.\n\nI am suspicious of strangers and expect the worst of them",
+    "gp": 168,
+    "sp": 0,
+    "cp": 0,
+    "ep": 0,
+    "pp": 0,
+    "attacks": [
+      {
+        "name": "Whip + 1 (Pact)",
+        "bonus": "8",
+        "damage": "1d4 + 4 + 1 slashing",
+        "notes": "Finesse, reach"
+      },
+      {
+        "name": "Sacred Flame",
+        "bonus": "Dex save",
+        "damage": "2d8 radiant",
+        "notes": "range 60 feet, target gains no benefit from cover"
+      },
+      {
+        "name": "Shortbow",
+        "bonus": "2",
+        "damage": "1d6 - 1 piercing",
+        "notes": "Ammunition (range 80/320), two-handed"
+      }
+    ],
+    "features": [
+      {
+        "_inline": true,
+        "name": "(Paladin: 1) Lay On Hands",
+        "description": "Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you finish a Long Rest. With that pool, you can restore a total number of Hit Points equal to five times your Paladin level.\n\nAs a Bonus Action, you can touch a creature (which could be yourself) and draw power from the pool of healing to restore a number of Hit Points to that creature, up to the maximum amount remaining in the pool.\n\nYou can also expend 5 Hit Points from the pool of healing power to remove the Poisoned condition from the creature; those points don’t also restore Hit Points to the creature.\n\nUses: 5*level",
+        "level": 6,
+        "class": "Paladin"
+      },
+      {
+        "_inline": true,
+        "name": "(Paladin: 1) Weapon Mastery",
+        "description": "Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Longswords and Javelins.\n\nWhenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Halberds and Flails.\n\n- Whip \n- Blowgun",
+        "level": 6,
+        "class": "Paladin"
+      },
+      {
+        "_inline": true,
+        "name": "(Paladin: 2) Fighting Style: Blessed Warrior",
+        "description": "You learn two Cleric cantrips of your choice. The chosen cantrips count as Paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a Paladin level, you can replace one of these cantrips with another Cleric cantrip",
+        "level": 6,
+        "class": "Paladin"
+      },
+      {
+        "_inline": true,
+        "name": "(Paladin: 2) Paladin’s Smite",
+        "description": "You always have the Divine Smite spell prepared.\nYou can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it this way again.\n\nUses: 1",
+        "level": 6,
+        "class": "Paladin"
+      },
+      {
+        "_inline": true,
+        "name": "(Paladin: 3) Channel Divinity",
+        "description": "You always have the Divine Smite spell prepared. In addition, you can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it in this way again.\n\nUses: 2",
+        "level": 6,
+        "class": "Paladin"
+      },
+      {
+        "_inline": true,
+        "name": "(Oath of the Crown)",
+        "description": "In service to the **Crawling King**\n\n**Law**. The law is paramount. It is the mortar that holds the stones of civilization together, and it must be respected.\n\n**Loyalty**. Your word is your bond. Without loyalty, oaths and laws are meaningless.\n\n**Courage**. You must be willing to do what needs to be done for the sake of order, even in the face of overwhelming odds. If you don't act, then who will?\n\n**Responsibility**. You must deal with the consequences of your actions, and you are responsible for fulfilling your duties and obligations",
+        "level": 6,
+        "class": "Paladin"
+      },
+      {
+        "_inline": true,
+        "name": "(Oath of the Crown: 3) Channel Divinity: Champion Challenge",
+        "description": "As a bonus action, you issue a challenge that compels other creatures to do battle with you. Each creature of your choice that you can see within 30 feet of you must make a Wisdom saving throw. On a failed save, a creature can't willingly move more than 30 feet away from you. This effect ends on the creature if you are incapacitated or die or if the creature is more than 30 feet away from you.",
+        "level": 6,
+        "class": "Paladin"
+      },
+      {
+        "_inline": true,
+        "name": "(Oath of the Crown: 3) Channel Divinity: Turn the Tide",
+        "description": "As a bonus action, you can bolster injured creatures with your Channel Divinity. Each creature of your choice that can hear you within 30 feet of you regains hit points equal to 1d6 + your Charisma modifier (minimum of 1) if it has no more than half of its hit points.",
+        "level": 6,
+        "class": "Paladin"
+      },
+      {
+        "_inline": true,
+        "name": "(Oath of the Crown: 3) Channel Divinity: Divine Sense",
+        "description": "As a Bonus Action, you can open your awareness to detect Celestials, Fiends, and Undead. For the next 10 minutes or until you have the Incapacitated condition, you know the location of any creature of those types within 60 feet of yourself, and you know its creature type. Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the Hallow spell.",
+        "level": 6,
+        "class": "Paladin"
+      },
+      {
+        "_inline": true,
+        "name": "(Paladin: 4) ASI/Feat",
+        "level": 6,
+        "class": "Paladin"
+      },
+      {
+        "_inline": true,
+        "name": "(Paladin: 4) Extra Attack",
+        "level": 6,
+        "class": "Paladin"
+      },
+      {
+        "_inline": true,
+        "name": "(Paladin: 5) Faithful Steed",
+        "description": "You can call on the aid of an otherworldly steed. You always have the Find Steed spell prepared.\n\nYou can also cast the spell once without expending a spell slot, and you regain the ability to do so when you finish a Long Rest.",
+        "level": 6,
+        "class": "Paladin"
+      },
+      {
+        "_inline": true,
+        "name": "(Paladin: 6) Aura of Protection",
+        "description": "Starting at 6th level, whenever you or a friendly creature within 10 feet of you must make a saving throw, the creature gains a bonus to the saving throw equal to your Charisma modifier ({charismaMod}) (with a minimum bonus of +1). You must be conscious to grant this bonus.\n\nAt 18th level, the range of this aura increases to 30 feet.",
+        "level": 6,
+        "class": "Paladin"
+      }
+    ],
+    "feats": [
+      {
+        "_inline": true,
+        "name": "Tough",
+        "description": "Your maximum Hit Points increase by an amount equal to twice your level when you first take this feat. For example, if you are a level 6 character, your maximum Hit Points would increase by 12.\nWhenever you gain a level after taking this feat, your Hit Point maximum increases by an additional 2 Hit Points."
+      },
+      {
+        "_inline": true,
+        "name": "Telepathic"
+      }
+    ],
+    "species_traits": [
+      {
+        "_inline": true,
+        "name": "Sub-Species: Pallid Elf",
+        "description": "- Advantage on Investigation and Insight checks.\n- You know the Light cantrip. When you reach 3rd level, you can cast Sleep once, and it recharges after a long rest. When you reach 5th level, you can cast Invisibility (Self Only) once, and it recharges after a long rest. You do not need the material components required of the spells. Wisdom is your spellcasting ability for these spells",
+        "species": "Pallid Elf"
+      },
+      {
+        "_inline": true,
+        "name": "(Species) Elf",
+        "description": "Darkvision. You have Darkvision with a range of 60 feet\n\nFey Ancestry. You have Advantage on saving throws you make to avoid or end the Charmed condition.\n\nTrance. You don’t need to sleep, and magic can’t put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trance-like meditation, during which you retain consciousness.",
+        "species": "Pallid Elf"
+      }
+    ],
+    "equipment": [
+      {
+        "_inline": true,
+        "name": "Shield",
+        "description": "A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.",
+        "_per": {
+          "qty": 1,
+          "equipped": true
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Shortbow",
+        "_per": {
+          "qty": 1,
+          "equipped": true
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Plate Armor",
+        "description": "Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.",
+        "_per": {
+          "qty": 1,
+          "equipped": true
+        }
+      }
+    ],
+    "magic_items": [
+      {
+        "_inline": true,
+        "name": "Whip + 1 (Pact)",
+        "_per": {
+          "attuned": false
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Potion of Healing",
+        "_per": {
+          "attuned": false
+        }
+      }
+    ],
+    "spells": [
+      {
+        "_inline": true,
+        "name": "Light",
+        "_per": {
+          "prepared": true
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Sleep",
+        "_per": {
+          "prepared": true
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Invisibility",
+        "_per": {
+          "prepared": true
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Command",
+        "_per": {
+          "prepared": true
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Compelled Duel",
+        "_per": {
+          "prepared": true
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Bless",
+        "_per": {
+          "prepared": false
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Cure Wounds",
+        "_per": {
+          "prepared": true
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Detect Evil and Good",
+        "_per": {
+          "prepared": false
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Detect Poison and Disease",
+        "_per": {
+          "prepared": false
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Detect Magic",
+        "_per": {
+          "prepared": true
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Divine Favor",
+        "_per": {
+          "prepared": false
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Heroism",
+        "_per": {
+          "prepared": false
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Protection from Evil and Good",
+        "_per": {
+          "prepared": false
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Purify Food and Drink",
+        "_per": {
+          "prepared": false
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Shield of Faith",
+        "_per": {
+          "prepared": true
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Ceremony",
+        "_per": {
+          "prepared": false
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Searing Smite",
+        "_per": {
+          "prepared": false
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Thunderous Smite",
+        "_per": {
+          "prepared": true
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Wrathful Smite",
+        "_per": {
+          "prepared": false
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Find Steed",
+        "_per": {
+          "prepared": true
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Sacred Flame",
+        "_per": {
+          "prepared": true
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Thaumaturgy",
+        "_per": {
+          "prepared": true
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Aid",
+        "_per": {
+          "prepared": false
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Gentle Repose",
+        "_per": {
+          "prepared": false
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Locate Object",
+        "_per": {
+          "prepared": true
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Magic Weapon",
+        "_per": {
+          "prepared": false
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Prayer of Healing",
+        "_per": {
+          "prepared": false
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Protection from Poison",
+        "_per": {
+          "prepared": false
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Warding Bond",
+        "_per": {
+          "prepared": true
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Zone of Truth",
+        "_per": {
+          "prepared": true
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Branding Smite",
+        "_per": {
+          "prepared": false
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Lesser Restoration",
+        "_per": {
+          "prepared": true
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Divine Smite",
+        "_per": {
+          "prepared": true
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Krail's Rupture (Unprepared)",
+        "_per": {
+          "prepared": true
+        }
+      },
+      {
+        "_inline": true,
+        "name": "Drayfn's Curse of Incompetence (Unprepared",
+        "_per": {
+          "prepared": true
+        }
+      }
+    ],
+    "notes": "Imported from DiceCloud v1 (`QN748GQ9L24gXbiCW`).\n\nPortrait URL: https://i.imgur.com/Ehkc8Cl.jpeg\n\nClass levels: Paladin 6.\n\nResolved AC from DiceCloud effects: 20.\n\n### Backstory Sheet\n[External Link](https://docs.google.com/document/d/1KgUUUtlf_BpTmqJEJ5rLfquJNm3Dy7i-j0fTzxtaxpY/edit?tab=t.0)\n\n### Pics\n![WowieZowie](https://i.imgur.com/EuT5aXE.png)\n\n### Avrae Notes\n**Prepatory**\n- Armor of Agathys\n\n**Skills**\n- Advantage on Investigation \n- Advantage on Insight \n\n**Attacks:**\n(MultiAttack: 2)\n- !i attack \"Whip +1 (Mastery)\"\n- !i attack \"Shortbow (Mastery)\"\n- !i attack sacred (Sacred Flame)\n- !i cast Sacred Flame (Powerful)\n\n**Actions:**\n- !action \"Lay On Hands: Heal\" -t target -amt 3\n- !action \"Faithful Steed\"\n- !use <see seperate command> (Channel Divinity: Champion Challenge)\n- !cd_tide (Channel Divinity: Turn the Tide)\n- !cd_sense (Channel Divinity: Divine Sense)\n- Cast spell \n\n**Bonus Actions**\n- Divine Smite (After Hit)\n\n**Reactions**\n- Allies within 10ft get +{charismaMod} to saving throws due to aura (not reaction)\n\n**Short Rest**\n- Channel Divinity uses\n\n### Ideal Build\nFeats to Take:\n - http://dnd2024.wikidot.com/feat:delicious-pain\n - Eldritch Adept (use cha for weapons)\n\n### Oath:\nLaw. Uphold civilisation and order.\n\nLoyalty. Your word is your bond; without loyalty, oaths and laws are meaningless.\n\nResponsibility. Deal with the consequences of your actions, and fulfil your duties and obligations.\n\n### Champion Challenge\n!use -save wis -dc 15  -effect \"Challenged|cannot move more than 30ft away from Creethe|\" -desc \"As a bonus action, you issue a challenge that compels other creatures to do battle with you. Each creature of your choice that you can see within 30 feet of you must make a Wisdom saving throw. On a failed save, a creature can't willingly move more than 30 feet away from you. This effect ends on the creature if you are incapacitated or die or if the creature is more than 30 feet away from you.\" -title \"Channel Divinity: Champion Challenge!\" -phrase \"There is no escape.\" -cc \"Channel Divinity\" -t <target>\n\n### Turn the Tide\n!use -nosave -d \"-1d6 - {charismaMod}\" -title \"Channel Divinity: Turn the Tide\" -desc \"As a bonus action, you bolster injured creatures. Each creature of your choice that can hear you within 30 feet of you and has no more than half of its hit points remaining regains hit points equal to 1d6 + your Charisma modifier (minimum of 1).\" -phrase \"Stand tall! The fight isn't over yet!\" -cc \"Channel Divinity\" -t <target>",
+    "_overrides": {
+      "armor_class": 20
+    },
+    "species": {
+      "_ref": "dc-species-pallid-elf",
+      "_source": "dicecloud-v1"
+    },
+    "klass": {
+      "_ref": "dc-class-paladin",
+      "_source": "dicecloud-v1"
+    },
+    "background": {
+      "_ref": "dc-background-acolyte",
+      "_source": "dicecloud-v1"
+    },
+    "wisdom_save_prof": true,
+    "charisma_save_prof": true,
+    "is_caster": true,
+    "spell_ability": "charisma",
+    "caster_level": 6,
+    "slots_1_total": 4,
+    "slots_1_used": 0,
+    "slots_2_total": 2,
+    "slots_2_used": 0
+  },
+  "entries": {
+    "dc-species-pallid-elf": {
+      "content_type": "species",
+      "source": "dicecloud-v1",
+      "name": "Pallid Elf",
+      "data": {
+        "name": "Pallid Elf",
+        "size": "Medium",
+        "speed": 30
+      }
+    },
+    "dc-class-paladin": {
+      "content_type": "class",
+      "source": "dicecloud-v1",
+      "name": "Paladin",
+      "data": {
+        "name": "Paladin",
+        "hit_die": 10,
+        "saving_throws": "Wisdom, Charisma"
+      }
+    },
+    "dc-background-acolyte": {
+      "content_type": "background",
+      "source": "dicecloud-v1",
+      "name": "Acolyte",
+      "data": {
+        "name": "Acolyte",
+        "description": "**Shelter of The Faithful**\nAs an acolyte, you command the respect of those who share your faith, and you can perform the religious ceremonies of your deity. You and your adventuring companions can expect to receive free healing and care at a temple, shrine, or other established presence of your faith, though you must provide any material components needed for spells. Those who share your religion will support you (but only you) at a modest lifestyle.\n\nYou might also have ties to a specific temple dedicated to your chosen deity or pantheon, and you have a residence there. This could be the temple where you used to serve, if you remain on good terms with it, or a temple where you have found a new home. While near your temple, you can call upon the priests for assistance, provided the assistance you ask for is not hazardous and you remain in good standing with your temple."
+      }
+    }
+  },
+  "portrait_url": "https://i.imgur.com/Ehkc8Cl.jpeg"
+}
