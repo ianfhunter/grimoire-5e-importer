@@ -1,6 +1,6 @@
 # grimoire-5e-importer
 
-# DiceCloud v1 → Grimoire character import
+DiceCloud v1 → Grimoire (`dnd-5e-2024`) character import.
 
 One-shot converter: resolve DiceCloud v1 effect/formula stacks, emit a Grimoire
 `grimoire://character/v1` import file aimed at the **`dnd-5e-2024`** sheet.
